@@ -1,0 +1,19 @@
+.header-nav{
+    background-color: rgb(88, 82, 82);
+    color: whitesmoke;
+    padding: 10px;
+}
+.header-nav a{
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    margin-right: 10px;   
+}
+.header-nav a:hover{
+    color: rgb(176, 100, 248);
+}
+.name{
+    color: rgb(185, 110, 255);
+    border: 2px solid rgb(185, 110, 255);
+    padding: 5px;
+}
