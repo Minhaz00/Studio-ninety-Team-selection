@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Profile from '../Profile/Profile';
 import './Candidates.css'
+
 const Candidates = () => {
     const [candidates, setCandidates] = useState([]);
     const [cart, setCart] = useState([]);
+
     useEffect(() => {
         fetch('./generated.json')
         .then(res => res.json())
